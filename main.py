@@ -102,96 +102,96 @@ class Member():
         self.dkp = 0
 
         if self.attack_stars == 3 and self.attacking_th_difference == 0:
-            self.dkp += 100
+            self.dkp += 3
         elif self.attack_stars == 3 and self.attacking_th_difference == 1:
-            self.dkp += 100
+            self.dkp += 5
         elif self.attack_stars == 3 and self.attacking_th_difference == 2:
-            self.dkp += 100
+            self.dkp += 5
         elif self.attack_stars == 3 and self.attacking_th_difference == -1:
-            self.dkp += 100
+            self.dkp += 1
         elif self.attack_stars == 3 and self.attacking_th_difference == -2:
-            self.dkp += 100
+            self.dkp += 1
 
         elif self.attack_stars == 2 and self.attacking_th_difference == 0:
-            self.dkp += 100
+            self.dkp += 2
         elif self.attack_stars == 2 and self.attacking_th_difference == 1:
-            self.dkp += 100
+            self.dkp += 4
         elif self.attack_stars == 2 and self.attacking_th_difference == 2:
-            self.dkp += 100
+            self.dkp += 4
         elif self.attack_stars == 2 and self.attacking_th_difference == -1:
-            self.dkp += 100
+            self.dkp += 0
         elif self.attack_stars == 2 and self.attacking_th_difference == -2:
-            self.dkp += 100
+            self.dkp += 0
 
         elif self.attack_stars == 1 and self.attacking_th_difference == 0:
-            self.dkp += 100
+            self.dkp += 0
         elif self.attack_stars == 1 and self.attacking_th_difference == 1:
-            self.dkp += 100
+            self.dkp += 0
         elif self.attack_stars == 1 and self.attacking_th_difference == 2:
-            self.dkp += 100
+            self.dkp += 0
         elif self.attack_stars == 1 and self.attacking_th_difference == -1:
-            self.dkp += 100
+            self.dkp -= 2
         elif self.attack_stars == 1 and self.attacking_th_difference == -2:
-            self.dkp += 100
+            self.dkp -= 2
 
         elif self.attack_stars == 0 and self.attacking_th_difference == 0:
-            self.dkp += 100
+            self.dkp -= 1
         elif self.attack_stars == 0 and self.attacking_th_difference == 1:
-            self.dkp += 100
+            self.dkp -= 1
         elif self.attack_stars == 0 and self.attacking_th_difference == 2:
-            self.dkp += 100
+            self.dkp -= 1
         elif self.attack_stars == 0 and self.attacking_th_difference == -1:
-            self.dkp += 100
+            self.dkp -= 5
         elif self.attack_stars == 0 and self.attacking_th_difference == -2:
-            self.dkp += 100
+            self.dkp -= 5
 
         ###
 
         if self.got_attacked == True:
 
             if self.defense_stars == 3 and self.defending_th_difference == 0:
-                self.dkp += 100
+                self.dkp += 0
             elif self.defense_stars == 3 and self.defending_th_difference == 1:
-                self.dkp += 100
+                self.dkp += 0
             elif self.defense_stars == 3 and self.defending_th_difference == 2:
-                self.dkp += 100
+                self.dkp += 0
             elif self.defense_stars == 3 and self.defending_th_difference == -1:
-                self.dkp += 100
+                self.dkp -= 2
             elif self.defense_stars == 3 and self.defending_th_difference == -2:
-                self.dkp += 100
+                self.dkp -= 2
 
             elif self.defense_stars == 2 and self.defending_th_difference == 0:
-                self.dkp += 100
+                self.dkp += 1
             elif self.defense_stars == 2 and self.defending_th_difference == 1:
-                self.dkp += 100
+                self.dkp += 2
             elif self.defense_stars == 2 and self.defending_th_difference == 2:
-                self.dkp += 100
+                self.dkp += 2
             elif self.defense_stars == 2 and self.defending_th_difference == -1:
-                self.dkp += 100
+                self.dkp -= 1
             elif self.defense_stars == 2 and self.defending_th_difference == -2:
-                self.dkp += 100
+                self.dkp -= 1
 
             elif self.defense_stars == 1 and self.defending_th_difference == 0:
-                self.dkp += 100
+                self.dkp += 2
             elif self.defense_stars == 1 and self.defending_th_difference == 1:
-                self.dkp += 100
+                self.dkp += 4
             elif self.defense_stars == 1 and self.defending_th_difference == 2:
-                self.dkp += 100
+                self.dkp += 4
             elif self.defense_stars == 1 and self.defending_th_difference == -1:
-                self.dkp += 100
+                self.dkp += 0
             elif self.defense_stars == 1 and self.defending_th_difference == -2:
-                self.dkp += 100
+                self.dkp += 0
 
             elif self.defense_stars == 0 and self.defending_th_difference == 0:
-                self.dkp += 100
+                self.dkp += 3
             elif self.defense_stars == 0 and self.defending_th_difference == 1:
-                self.dkp += 100
+                self.dkp += 5
             elif self.defense_stars == 0 and self.defending_th_difference == 2:
-                self.dkp += 100
+                self.dkp += 5
             elif self.defense_stars == 0 and self.defending_th_difference == -1:
-                self.dkp += 100
+                self.dkp += 2
             elif self.defense_stars == 0 and self.defending_th_difference == -2:
-                self.dkp += 100
+                self.dkp += 2
 
     def make_dict(self):
         """
